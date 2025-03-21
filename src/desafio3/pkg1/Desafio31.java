@@ -24,7 +24,7 @@ public class Desafio31 {
         if (sexo.equalsIgnoreCase("M")) {
             peso = (72.7 * altura) - 58;
             System.out.println("Seu peso ideal é " + decimal.format(peso));
-            if (sexo.equals("F")) {
+            if (sexo.equalsIgnoreCase("F")) {
                 peso = (62.1 * altura) - 44.7;
                     System.out.println("Seu peso ideal é " + decimal.format(peso));
                 }
